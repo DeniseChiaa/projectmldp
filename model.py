@@ -4,7 +4,7 @@ import pickle
 from sklearn.ensemble import GradientBoostingRegressor
 
 # Load the model
-with open("gbm_model.pkl", 'rb') as file:
+with open("rfr_model.pkl", 'rb') as file:
     load_clf = pickle.load(file)
 
 st.write("""
